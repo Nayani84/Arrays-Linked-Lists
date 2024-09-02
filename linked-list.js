@@ -65,7 +65,6 @@ class LinkedList {
   /** pop(): return & remove last item. */
 
   pop() {
-    //  console.log(this.length);
     return this.removeAt(this.length - 1);
   }
 
